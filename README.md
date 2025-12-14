@@ -16,6 +16,9 @@ This repository contains the solution for **Series 5 of the Principles of Image 
 ## Features & Mathematical Basis
 
 ### 1. Face Morphing (`q1.py`)
+
+[Project screenshot](./results/result1.png)
+
 * **Goal:** Generate a 45-frame video sequence morphing Face A to Face B.
 * **Algorithm:**
     * **Correspondence:** Uses 81 manual landmarks (eyes, nose, mouth) to define facial structure.
