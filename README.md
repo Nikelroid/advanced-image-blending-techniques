@@ -17,7 +17,7 @@ This repository contains the solution for **Series 5 of the Principles of Image 
 
 ### 1. Face Morphing (`q1.py`)
 
-[Javad Ezzati](./Results/res01.jpg)
+![Javad Ezzati](./Results/res01.jpg)
 
 * **Goal:** Generate a 45-frame video sequence morphing Face A to Face B.
 * **Algorithm:**
