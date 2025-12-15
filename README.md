@@ -17,7 +17,7 @@ This repository contains the solution for **Series 5 of the Principles of Image 
 
 ### 1. Face Morphing (`q1.py`)
 
-![Javad Ezzati](./Results/res01.jpg)
+<img src="./Results/res01.jpg" alt="Javad Ezzati" width="200" height="300">  <img src="./Results/res02.jpg" alt="Javad Ezzati" width="200" height="300">
 
 * **Goal:** Generate a 45-frame video sequence morphing Face A to Face B.
 * **Algorithm:**
@@ -25,6 +25,9 @@ This repository contains the solution for **Series 5 of the Principles of Image 
     * **Triangulation:** Applies Delaunay Triangulation (`scipy.spatial.Delaunay`) to create a consistent mesh across both images.
     * **Affine Warping:** Calculates a unique Affine Transformation matrix for every triangle in every frame to map pixels from the source/target to the intermediate shape.
     * **Cross-Dissolve:** Linearly interpolates pixel intensity (color) simultaneously with the geometric warp.
+
+
+<img src="./Results/morph.gif" alt="Blended" width="400" height="600">
 
 ### 2. Poisson Blending (`q2.py`)
 * **Goal:** Seamlessly paste a source region into a target background such that the edges are invisible.
